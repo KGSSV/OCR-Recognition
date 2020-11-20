@@ -26,7 +26,7 @@ def getfile():
     URL = label.get()
     URL = URL + '.png'
     print(URL)
-    api = 'a07656b96688957'
+    api = 'your key'
     # https://gyazo.com/159c01251162f026b434d57fc1cccb6a
     string = {'apikey': api, 'url': URL,
               'language': 'eng', 'isOverlayRequired': False}
