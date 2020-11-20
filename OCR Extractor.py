@@ -36,7 +36,7 @@ def getfile():
     print(response)
 
     response = response.json()
-    'print(response)''
+    'print(response)'
     '''{"ParsedResults":[{"TextOverlay":{"Lines":[],"HasOverlay":false,"Message":"Text overlay is not provided as it is not requested"},
     "TextOrientation":"0","FileParseExitCode":1,"ParsedText":"the message","ErrorMessage":"","ErrorDetails":""}],
     "OCRExitCode":1,"IsErroredOnProcessing":false,"ProcessingTimeInMilliseconds":"406","SearchablePDFURL":"Searchable PDF not generated as it was not requested."}'''
